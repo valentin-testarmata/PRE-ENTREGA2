@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#f8f5f1 ;
+}
+
+.iniciopagina{
+    background-color: #c0d9e6;
+}
+.titulo2{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+     font-family: 'Open Sans', sans-serif;
+}
+div{ 
+    color: black;
+    font-size: 30px;
+}
+h1 {
+    margin: 50px;
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c0d9e6;
+    color:black;
+    }
+    
+.home1 {
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+background-color: #c0d9e6;
+margin:80px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+
+.items23{
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif
+}
+
+.img34 {
+    width: 800px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+}
+.img2{
+    width:700px ;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width:600px ;
+    height:1000px ;
+    display: flex;
+    justify-content: center;
+}
+.imgp{
+    display: flex;
+    justify-content: center;
+}
+.img67{
+    width: 700px;
+    height:750px ;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.titulosec{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+    }
+/* accesorios */
+.titulo-destacado{
+    background-color:#f8f5f1 ;
+}
+.broche1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+    
+}
+.lentes-sol{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.aritos1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.aritos2{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.joyeria1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.lentes-sol1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.reloj-oro{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.reloj3{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.tobillera1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.titulo-destacado{
+    font-family:'PT Serif', serif;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+
+}
+.destacado1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.destacado2{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.destacado3{margin: 50px;
+    width: 200px;
+    height: 250px;}
+.destacado4{margin: 50px;
+    width: 200px;
+    height: 250px;}
+.destacado5{margin: 50px;
+    width: 200px;
+    height: 250px;}
+.destacado6{margin: 50px;
+    width: 200px;
+    height: 250px;}
+.destacado7{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+    .destacado8{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre1{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre2{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre3{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre4{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre5{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre6{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .hombre7{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+    .title4{
+        display: flex;
+        justify-content: center;
+        display: flex;
+    font-family: 'Open Sans', sans-serif;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+    }
+    .autfit1{
+        width: 900px;
+        height: 1270px;
+        margin: 30px;
+        }
+        .aut4{
+            width: 900px;
+            height: 1269px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        .buzo-negro{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+        }
+        .jean-mujer1{
+            margin: 50px;
+        width: 200px;
+        height: 250px;
+        }
+        .remera-mujer1{
+            margin: 50px;
+        width: 200px;
+        height: 250px;
+        }
+        .remera-mujer2{
+            margin: 50px;
+        width: 200px;
+        height: 250px;
+        }
+        .buzo-mariposa{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+        .chaqueta-nike{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+        .pantalon-marron{
+        margin: 50px;
+        width: 200px;
+        height: 250px;
+    }
+.buzo1{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.chaqueta-niño{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}       
+.polar{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.remera-azul{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.remera-pantalon{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.remera-tiburon{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+.short{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    color: black;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+     font-family: 'Open Sans', sans-serif;
+}
+.ui{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+     border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+
+}
+.imagen45{
+    margin: 50px;
+    width: 200px;
+    height: 250px;
+}
+
+.aut1{
+    height: 900px;
+    width: 640px;
+}
+.aut2{
+    height: 900px;
+    width:650px ;
+}
+.aut3{
+    height: 900px;
+    width: 600px;
+}
+.prenda{
+    display: flex;
+    justify-content: space-around;
+    font-family:'PT Serif', serif;
+}
+.gucci{
+    width: 1900px;
+    height: 1200px;
+    margin-top: 30px;
+}
+.buscado{
+    display: flex;
+    justify-content: space-around;
+     border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+     font-family: 'Open Sans', sans-serif;
+
+}
+.yu{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+}
+.ya{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+}
+.wp{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 60px;
+}
+.logo{
+    margin: 30px 20px;
+    width: 130px;
+}
+.h1{
+    margin:0px
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 0fr 3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 3 / 2 / 3 / 1; }
+    
+
+    .gorra-hombre{
+        width: 700px;
+        height:600px ;
+    }
+    .gorra-new-era{
+        width:630px ;
+        height: 600px;
+    }
+    .gorra-celeste{
+        width: 550px;
+        height:600px ;
+    }
+    /* mobile */
+    @media only screen and (max-width: 480px) {
+
+        body{
+           background-color: #D6EAF8;
+       }
+       
+       .menu{
+        flex-direction: column;
+
+       }
+       .contenedor-menu{
+        flex-direction: column;
+
+       }
+       .home1{
+        display: flex;
+        justify-content: center;
+       }
+       .autfit1{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .aut4{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .aut3{
+        height: 900px;
+        width: 640px;
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .aut1{
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .aut2{
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .gucci{
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .gorra-hombre{
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .gorra-new-era{
+        width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       .gorra-celeste{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+       }
+       
+
+       }
+       
+       /* tablet */
+       @media only screen and (min-width: 481px) and (max-width: 980px) {
+           body{
+               background-color: #454545;
+           }
+           
+           .menu{
+            flex-direction: column;
+    
+           }
+           .contenedor-menu{
+            flex-direction: column;
+    
+           }
+           .home1{
+            display: flex;
+            justify-content: center;
+           }
+           .gucci{
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .aut3{
+            height: 900px;
+            width: 640px;
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .aut1{
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .aut2{
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .gorra-hombre{
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .gorra-new-era{
+            width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           .gorra-celeste{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+           }
+           
+       }
+         /* desktop */
+         @media only screen and (min-width: 981px) {
+         }
+
+         .destacado4:hover{
+            transform: scale(2);
+            transition: all 1s;
+            }
+   
+       /* hover */
+       
+       .home1:hover{
+        cursor: pointer;
+       }
+       .broche1:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre1:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre2:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre3:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre4:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre5:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre6:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .hombre7:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+       .imagen45:hover{
+        transform: scale(2);
+        transition: all 1s;
+       }
+    .destacado1:hover{
+        transform: scale(2);
+        transition: all 1s;
+    }   
+    .destacado2:hover{
+        transform: scale(2);
+        transition: all 1s;
+    }
+    .destacado3:hover{
+        transform: scale(2);
+        transition: all 1s;
+    }
+    p::first-letter{
+        text-transform: uppercase;
+    }
+    
+    .destacado5:hover{
+        transform: scale(2);
+        transition: all 1s;
+    }
+    .destacado6:hover{transform: scale(2);
+        transition: all 1s;}
+
+        .destacado7:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .destacado8:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .buzo1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .chaqueta-niño:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .polar:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .remera-azul:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .remera-pantalon:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .remera-tiburon:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .short:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .lentes-sol:hover{
+            transform: scale(2);
+            transition: all 1s;
+        }
+        
+        .aritos1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .aritos2:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .joyeria1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .lentes-sol1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .reloj-oro:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .reloj3:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .tobillera1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .buzo-negro:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .jean-mujer1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .remera-mujer1:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .remera-mujer2:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .buzo-mariposa:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .chaqueta-nike:hover{
+            transform: scale(2);
+        transition: all 1s;
+        }
+        .pantalon-marron:hover{   
+            transform: scale(2);
+            transition: all 1s;
+         }
+
+        /* fin hover */
+        .carrusel-niños{
+            width: auto;
+            height: auto;
+        }
+        .niños-titulo-secundario{  
+        margin: auto;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+     }
+        
+
+        
+        
+        
+        
+
+
+
+    
