@@ -55,28 +55,6 @@ margin:80px;
     font-family: 'Nunito', sans-serif
 }
 
-.img34 {
-    width: 800px;
-    height:1000px;
-    display: flex;
-    justify-content: center;
-}
-.img2{
-    width:700px ;
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-}
-.img1{
-    width:600px ;
-    height:1000px ;
-    display: flex;
-    justify-content: center;
-}
-.imgp{
-    display: flex;
-    justify-content: center;
-}
 .img67{
     width: 700px;
     height:750px ;
@@ -98,6 +76,22 @@ margin:80px;
 .titulo-destacado{
     background-color:#f8f5f1 ;
 }
+
+.prenda-hombre-1{
+    width: 900px;
+    height: 1078px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.prenda-hombre-2{
+    width: 900px;
+    height: 1078px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 60px;
+}
+
 .broche1{
     margin: 50px;
     width: 200px;
@@ -149,7 +143,7 @@ margin:80px;
     border: 4px solid cornflowerblue;
      border-radius: 5px;
      background-color: #c0d9e6;
-
+     
 }
 .destacado1{
     margin: 50px;
@@ -231,12 +225,16 @@ margin:80px;
         width: 900px;
         height: 1270px;
         margin: 30px;
+        transition: 0.5s;
+                object-fit:cover ;
         }
         .aut4{
             width: 900px;
             height: 1269px;
             padding-bottom: 30px;
             padding-top: 30px;
+            transition: 0.5s;
+                object-fit:cover ;
         }
         .buzo-negro{
         margin: 50px;
@@ -352,11 +350,8 @@ footer{
     justify-content: space-around;
     font-family:'PT Serif', serif;
 }
-.gucci{
-    width: 1900px;
-    height: 1200px;
-    margin-top: 30px;
-}
+
+
 .buscado{
     display: flex;
     justify-content: space-around;
@@ -393,17 +388,6 @@ footer{
 .h1{
     margin:0px
 }
-.parent {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr 0fr 3fr 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 3; }
-    .div2 { grid-area: 3 / 2 / 3 / 1; }
-    
 
     .gorra-hombre{
         width: 700px;
@@ -417,11 +401,42 @@ footer{
         width: 550px;
         height:600px ;
     }
+    .parent {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 4fr repeat(2, 3fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 3px;
+            }
+            
+            
     /* mobile */
     @media only screen and (max-width: 480px) {
 
         body{
            background-color: #D6EAF8;
+       }
+       
+       .mobile-1{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+    
+       }
+       .mobile-2{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+       }
+       .mobile-3{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+       }
+       .imgp{
+        text-align: center;
+        font-family: lato;
+        margin: 50px 0px;
        }
        
        .menu{
@@ -439,51 +454,115 @@ footer{
        .autfit1{
         width: 100%;
         border-radius: 15px;
-        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .aut4{
         width: 100%;
         border-radius: 15px;
-        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .aut3{
         height: 900px;
         width: 640px;
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .aut1{
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .aut2{
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .gucci{
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .gorra-hombre{
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .gorra-new-era{
         width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
        .gorra-celeste{
         width: 100%;
         border-radius: 15px;
-        box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
        }
-       
+       .chaqueta-zara{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .zara{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        margin-bottom: 30px;
+        margin-top: 30px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .zara-mujer{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+                width: 300px;
+                 height: 500px;
+       }
+       .buzo-zara-niños{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        padding-top: 20px;
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .buzos-zara-sub{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px (15, 15, 15, .5);
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .buzos-zara-sub1{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px (15, 15, 15, .5);
+        margin-top: 70px;
+                margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .prendas-niños-zara{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px (15, 15, 15, .5);
+        padding-top: 20px;
+        object-fit:cover ;
+         margin-top: 70px;
+         margin-bottom: 20px;
+         transition: 0.5s;
+         width: 400px;
+         height: 250px;
+       }
 
        }
        
@@ -542,15 +621,236 @@ footer{
             border-radius: 15px;
             box-shadow: 0px 3px 5px rba(15, 15, 15, .5);
            }
-           
+           .mobile-1{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        
+           }
+           .mobile-2{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+           }
+           .mobile-3{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+           }
+           .chaqueta-zara{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+           }
+           .zara{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+           }
+           .zara-mujer{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+            width: 500px;
+                 height: 500px;
+                 margin-bottom: 30px;
+                 margin-top: 20px;
+           }
+           .autfit1{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+           }
+           .aut4{
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+            }
+            .buzo-zara-niños{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+                padding-top: 20px;
+                margin-bottom: 20px;
+                        transition: 0.5s;
+                        object-fit:cover ;
+               }
+               .buzos-zara-sub{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px (15, 15, 15, .5);
+                margin-bottom: 20px;
+                        transition: 0.5s;
+                        object-fit:cover ;
+               }
+               .buzos-zara-sub1{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px (15, 15, 15, .5);
+                margin-top: 70px;
+                        margin-bottom: 20px;
+                        transition: 0.5s;
+                        object-fit:cover ;
+                        width: 400px;
+                 height: 1000px;
+               }
+               .prendas-niños-zara{
+                width: 100%;
+                border-radius: 15px;
+                box-shadow: 0px 3px 5px (15, 15, 15, .5);
+                padding-top: 20px;
+                object-fit:cover ;
+                 margin-top: 70px;
+                 margin-bottom: 20px;
+                 transition: 0.5s;
+                 width: 300px;
+                 height: 500px;
+       }
+       
+
        }
          /* desktop */
          @media only screen and (min-width: 981px) {
-         }
+         
 
          .destacado4:hover{
             transform: scale(2);
             transition: all 1s;
+            }
+            .imgp{
+                display: flex;
+                width: 2300px;
+                height: 1000px;
+                
+            }
+            .imagen-1{
+                display: flex;
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+            }
+            .imagen-1:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(100%);
+              }
+              .mujer-45{
+                display: flex;
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+              }
+              .mujer-45:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(100%);
+              }
+              .carrusel-mujer{
+                display: flex;
+                width: 2200px;
+                height: 1000px;
+                
+              }
+              .carrusel-accesorios1{
+                display: flex;
+                padding-bottom: 60px;
+              }
+              .carrusel-accesorios{
+                display: flex;
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .8s ease-in;
+            
+              }
+              .carrusel-accesorios:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(100%);
+              }
+              .chaqueta-zara{
+                
+                padding-left: 650px;
+                width: 600px;
+                transition: 0.5s;
+                object-fit:cover ;
+            }
+            .titulo-zara{
+                padding-left: 800px;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                font-family:sans-serif;
+                transition: 0.5s;
+                object-fit:cover ;
+            }
+            .zara{
+                margin: 50px;
+                margin-left: 90px;
+                height: 480px;
+            }
+            .zara-mujer{
+                
+                margin: 50px;
+             width: 500px;
+            height: 650px;
+            transition: 0.5s;
+            object-fit:cover ;
+                
+            }
+            .buzo-zara-niños{
+                padding-left: 500px;
+                transition: 0.5s;
+                object-fit:cover ;
+                margin-top: 70px;
+                margin-bottom: 20px;
+            }
+            .titulo-zara-niños{
+                padding-left: 800px;
+                margin-top: 20px;
+                margin-bottom: 80px;
+                font-family:sans-serif;
+                transition: 0.5s;
+                object-fit:cover ;
+            }
+            .buzos-zara-sub{
+                width:700px ;
+                height: 900px;
+                margin-left: 260px;
+                margin-bottom: 80px;
+                object-fit:cover ;
+                margin-top: 70px;
+                margin-bottom: 20px;
+                transition: 0.5s;
+                
+            }
+            .buzos-zara-sub1{
+                width:700px ;
+                height: 900px;
+                margin-left: 20px;
+                margin-bottom: 80px;
+                object-fit:cover ;
+                margin-top: 70px;
+                margin-bottom: 20px;
+                transition: 0.5s;
+   
+            }
+            .prendas-niños-zara{
+                margin: 50px;
+                margin-left: 40px;
+                height: 400px;
+                object-fit:cover ;
+                margin-top: 70px;
+                margin-bottom: 20px;
+                transition: 0.5s;
+            }
             }
    
        /* hover */
@@ -714,7 +1014,40 @@ footer{
             transform: scale(2);
             transition: all 1s;
          }
-
+         .zara:hover{
+            transform: scale(1.2);
+            transition: all 1s;
+         }
+         .titulo-zara:hover{
+            transform: scale(1.2);
+         }
+         .chaqueta-zara:hover{
+            transform: scale(1.2);
+         }
+         .aut4:hover{
+            transform: scale(1.1);
+         }
+         .autfit1:hover{
+            transform: scale(1.1);
+         }
+         .zara-mujer:hover{
+            transform: scale(1.1);
+         }
+         .buzo-zara-niños:hover{
+            transform: scale(1.1);
+         }
+         .titulo-zara-niños:hover{
+            transform: scale(1.1);
+         }
+         .buzos-zara-sub:hover{
+            transform: scale(1.1);
+         }
+        .buzos-zara-sub1:hover{
+            transform: scale(1.1);
+        }
+        .prendas-niños-zara:hover{
+            transform: scale(1.1);
+        }
         /* fin hover */
         .carrusel-niños{
             width: auto;
@@ -729,11 +1062,3 @@ footer{
      }
         
 
-        
-        
-        
-        
-
-
-
-    
