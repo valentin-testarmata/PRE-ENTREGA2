@@ -1,0 +1,18 @@
+{
+  "name": "pre-entrega-2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000R\u0000E\u0000-\u0000E\u0000N\u0000T\u0000R\u0000E\u0000G\u0000A\u00002\u0000\r\u0000 \u0000#\u0000 \u0000P\u0000R\u0000E\u0000-\u0000E\u0000N\u0000T\u0000R\u0000E\u0000G\u0000A\u00002\u0000\r\u0000 \u0000# PRE-ENTREGA2 #\u0000 \u0000P\u0000R\u0000E\u0000-\u0000E\u0000N\u0000T\u0000R\u0000E\u0000G\u0000A\u00002\u0000\r\u0000 \u0000#\u0000 \u0000P\u0000R\u0000E\u0000-\u0000E\u0000N\u0000T\u0000R\u0000E\u0000G\u0000A\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
