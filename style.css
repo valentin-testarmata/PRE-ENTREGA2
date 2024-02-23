@@ -563,6 +563,15 @@ footer{
          width: 400px;
          height: 250px;
        }
+       .bape-pricipal1{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       
 
        }
        
@@ -646,6 +655,10 @@ footer{
             width: 100%;
             border-radius: 15px;
             box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+            width: 400px;
+                 height: 450px;
+                 margin-bottom: 30px;
+                 margin-top: 20px;
            }
            .zara-mujer{
             width: 100%;
@@ -706,7 +719,18 @@ footer{
                  width: 300px;
                  height: 500px;
        }
-       
+       .bape-pricipal1{
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+        margin-bottom: 20px;
+                transition: 0.5s;
+                object-fit:cover ;
+       }
+       .buscado{
+        box-shadow: 0px 3px 5px (15, 15, 15, .5);
+        width: 100%;
+       }
 
        }
          /* desktop */
@@ -719,7 +743,7 @@ footer{
             }
             .imgp{
                 display: flex;
-                width: 2300px;
+                width: 2100px;
                 height: 1000px;
                 
             }
@@ -850,6 +874,25 @@ footer{
                 margin-top: 70px;
                 margin-bottom: 20px;
                 transition: 0.5s;
+            }
+            .bape-pricipal1{
+                width: 800px;
+                height: 1000px;
+                margin-left: 500px;
+                margin-top: 70px;
+                object-fit:cover ;
+                transition: 0.5s;
+                margin-bottom: 30px;
+            }
+            .titulo-bape{
+                margin-left: 600px;
+                transition: 0.5s;
+                object-fit:cover ;
+            }
+            .niños-titulo1{
+                display: flex;
+                font-family: 'Open Sans', sans-serif;
+                margin: 0px 800px 70px ;
             }
             }
    
@@ -1047,6 +1090,12 @@ footer{
         }
         .prendas-niños-zara:hover{
             transform: scale(1.1);
+        }
+        .bape-pricipal1:hover{
+            transform: scale(1.1);
+        }
+        .titulo-bape:hover{
+            transform: scale(1.2);
         }
         /* fin hover */
         .carrusel-niños{
