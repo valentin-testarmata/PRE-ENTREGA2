@@ -1,0 +1,162 @@
+/* desktop */
+@media only screen and (min-width: 981px) {
+         
+
+    .destacado4:hover{
+       transform: scale(2);
+       transition: all 1s;
+       }
+       .imgp{
+           display: flex;
+           width: 2100px;
+           height: 1000px;
+           
+       }
+       .imagen-1{
+           display: flex;
+       width: 0px;
+       flex-grow: 1;
+       object-fit: cover;
+       opacity: .8;
+       transition: .5s ease;
+       }
+       .imagen-1:hover{
+           cursor: crosshair;
+           width: 300px;
+           opacity: 1;
+           filter: contrast(100%);
+         }
+         .mujer-45{
+           display: flex;
+       width: 0px;
+       flex-grow: 1;
+       object-fit: cover;
+       opacity: .8;
+       transition: .5s ease;
+         }
+         .mujer-45:hover{
+           cursor: crosshair;
+           width: 300px;
+           opacity: 1;
+           filter: contrast(100%);
+         }
+         .carrusel-mujer{
+           display: flex;
+           width: 2200px;
+           height: 1000px;
+           
+         }
+         .carrusel-accesorios1{
+           display: flex;
+           padding-bottom: 60px;
+         }
+         .carrusel-accesorios{
+           display: flex;
+       width: 0px;
+       flex-grow: 1;
+       object-fit: cover;
+       opacity: .8;
+       transition: .8s ease-in;
+       
+         }
+         .carrusel-accesorios:hover{
+           cursor: crosshair;
+           width: 300px;
+           opacity: 1;
+           filter: contrast(100%);
+         }
+         .chaqueta-zara{
+           
+           padding-left: 650px;
+           width: 600px;
+           transition: 0.5s;
+           object-fit:cover ;
+       }
+       .titulo-zara{
+           padding-left: 800px;
+           margin-top: 20px;
+           margin-bottom: 50px;
+           font-family:sans-serif;
+           transition: 0.5s;
+           object-fit:cover ;
+       }
+       .zara{
+           margin: 50px;
+           margin-left: 90px;
+           height: 480px;
+       }
+       .zara-mujer{
+           
+           margin: 50px;
+        width: 500px;
+       height: 650px;
+       transition: 0.5s;
+       object-fit:cover ;
+           
+       }
+       .buzo-zara-niños{
+           padding-left: 500px;
+           transition: 0.5s;
+           object-fit:cover ;
+           margin-top: 70px;
+           margin-bottom: 20px;
+       }
+       .titulo-zara-niños{
+           padding-left: 800px;
+           margin-top: 20px;
+           margin-bottom: 80px;
+           font-family:sans-serif;
+           transition: 0.5s;
+           object-fit:cover ;
+       }
+       .buzos-zara-sub{
+           width:700px ;
+           height: 900px;
+           margin-left: 260px;
+           margin-bottom: 80px;
+           object-fit:cover ;
+           margin-top: 70px;
+           margin-bottom: 20px;
+           transition: 0.5s;
+           
+       }
+       .buzos-zara-sub1{
+           width:700px ;
+           height: 900px;
+           margin-left: 20px;
+           margin-bottom: 80px;
+           object-fit:cover ;
+           margin-top: 70px;
+           margin-bottom: 20px;
+           transition: 0.5s;
+
+       }
+       .prendas-niños-zara{
+           margin: 50px;
+           margin-left: 40px;
+           height: 400px;
+           object-fit:cover ;
+           margin-top: 70px;
+           margin-bottom: 20px;
+           transition: 0.5s;
+       }
+       .bape-pricipal1{
+           width: 800px;
+           height: 1000px;
+           margin-left: 500px;
+           margin-top: 70px;
+           object-fit:cover ;
+           transition: 0.5s;
+           margin-bottom: 30px;
+       }
+       .titulo-bape{
+           margin-left: 600px;
+           transition: 0.5s;
+           object-fit:cover ;
+       }
+       .niños-titulo1{
+           display: flex;
+           font-family: 'Open Sans', sans-serif;
+           margin: 0px 800px 70px ;
+       }
+       }

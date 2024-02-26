@@ -1,0 +1,27 @@
+// articulos
+.buzo1{
+    @extend %medidas-products;
+}
+.chaqueta-niño{
+    @extend %medidas-products;
+}       
+.polar{
+    @extend %medidas-products;
+}
+.remera-azul{
+    @extend %medidas-products;
+}
+.remera-pantalon{
+    @extend %medidas-products;
+}
+.remera-tiburon{
+    @extend %medidas-products;
+}
+.short{
+    @extend %medidas-products;
+}
+// fin de articulos
+.carrusel-niños{
+    width: auto;
+    height: auto;
+}

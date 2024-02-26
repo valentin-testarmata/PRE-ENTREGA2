@@ -1,0 +1,18 @@
+@mixin insane($transform, $transition ) {
+    transform: $transform;
+    transition: $transition;
+}
+
+.zara:hover{
+    @include insane(scale(1.2),all 1s )
+}
+
+.remera-mujer1:hover{
+    @include insane(scale(2),all 1s )
+}
+
+@mixin gorras($width,$height ){
+    width: $width ;
+    height: $height ;
+}
+

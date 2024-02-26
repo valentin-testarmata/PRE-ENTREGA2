@@ -1,0 +1,45 @@
+.prenda{
+    display: flex;
+    justify-content: space-around;
+    font-family:'PT Serif', serif;
+    font-size: 30px;
+}
+
+// articulos
+.buzo-negro{
+    @extend %medidas-products;
+    }
+    .jean-mujer1{
+        @extend %medidas-products;
+    }
+    .remera-mujer1{
+        @extend %medidas-products;
+    }
+    .remera-mujer2{
+        @extend %medidas-products;
+    }
+    .buzo-mariposa{
+        @extend %medidas-products;
+}
+    .chaqueta-nike{
+        @extend %medidas-products;
+}
+    .pantalon-marron{
+        @extend %medidas-products;
+}
+.buzo1{
+    @extend %medidas-products;
+}
+
+// sub-titulo
+.ui{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    display: flex;
+     border: 4px solid cornflowerblue;
+     border-radius: 5px;
+     background-color: #c0d9e6;
+     font-size: 30px;
+
+     }

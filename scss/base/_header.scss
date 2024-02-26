@@ -1,0 +1,72 @@
+// header
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.iniciopagina{
+    background-color: #c0d9e6;
+
+}
+
+    .logo{
+        margin: 30px 20px;
+    width: 130px;
+        
+    }
+    
+    .h1{
+        margin: 50px;
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c0d9e6;
+    color:black;
+            
+        }
+
+
+       .menu{
+        display: flex;
+    justify-content: center;
+    margin: 80px;
+       } 
+
+       .home1{
+        color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+background-color: #c0d9e6;
+margin:80px;
+font-size: 25px;
+        
+       }
+           
+        //  mobile
+    @media only screen and (max-width: 480px){
+        body{
+            background-color: #D6EAF8;
+         }
+             .menu{
+             flex-direction: column;
+             }
+                     .contenedor-menu{
+                     flex-direction: column;
+                     }
+                          .home1{
+                         display: flex;
+                         justify-content: center;
+                         }
+}
+   
+    
+
+
+
+    
+    
+
+
+
+

@@ -1,0 +1,10 @@
+%medidas-products{
+    margin: 50px;
+        width: 200px;
+        height: 250px;
+}
+
+%zoom-hover{
+    transform: scale(2);
+    transition: all 1s;
+}

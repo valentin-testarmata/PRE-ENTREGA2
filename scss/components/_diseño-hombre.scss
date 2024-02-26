@@ -1,0 +1,60 @@
+.ya{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+     }
+
+    //  articulo
+
+    .hombre1{
+        @extend %medidas-products;
+    }
+    .hombre2{
+        @extend %medidas-products;
+    }
+    .hombre3{
+        @extend %medidas-products;
+    }
+    .hombre4{
+        @extend %medidas-products;
+    }
+    .hombre5{
+        @extend %medidas-products;
+    }
+    .hombre6{
+        @extend %medidas-products;
+    }
+    .hombre7{
+        @extend %medidas-products;
+        }
+    .imagen45{
+      @extend %medidas-products;
+        }
+        
+        // sub-titulo
+        .title4{
+            display: flex;
+            justify-content: center;
+        border: 4px solid cornflowerblue;
+         border-radius: 5px;
+         background-color: #c0d9e6;
+         font-size: 25px;
+
+         }
+        //  imgs
+        .aut4{
+            width: 900px;
+            height: 1269px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            transition: 0.5s;
+            object-fit:cover 
+          }
+          .autfit1{
+            width: 900px;
+            height: 1270px;
+            margin: 30px;
+            transition: 0.5s;
+             object-fit:cover ;
+            }

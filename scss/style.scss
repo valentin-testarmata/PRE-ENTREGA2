@@ -1,1 +1,29 @@
+body{
+    background-color:#f8f5f1  
+}
+// header
+@import "../scss/base/header"; 
 
+// paginas
+@import "../scss/components/diseño-home";
+@import "components/diseño-accesorios";
+@import "components/diseño-destacado.scss";
+@import "components/diseño-hombre";
+@import "components/diseño-mujer";
+@import "components/diseño-niños";
+
+
+// media queris
+ @import "components/queris-computadora";
+ @import "components/mobile";
+ @import "components/tablet";
+
+//  hover
+@import "components/hover";
+
+
+// extends
+@import "base/extends";
+
+// mixnins
+@import "base/mixins"
