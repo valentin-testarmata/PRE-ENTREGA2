@@ -14,7 +14,7 @@ body{
 
 
 // media queris
- @import "components/queris-computadora";
+ @import "components/desktop";
  @import "components/mobile";
  @import "components/tablet";
 
@@ -24,6 +24,7 @@ body{
 
 // extends
 @import "base/extends";
-
 // mixnins
-@import "base/mixins"
+@import "base/mixins";
+// mapas
+@import "base/mapas";
