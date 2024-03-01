@@ -4,6 +4,14 @@ body{
 // header
 @import "../scss/base/header"; 
 
+// mapas
+@import "base/mapas";
+// extends
+@import "base/extends";
+// mixnins
+@import "base/mixins";
+
+
 // paginas
 @import "../scss/components/diseño-home";
 @import "components/diseño-accesorios";
@@ -11,6 +19,7 @@ body{
 @import "components/diseño-hombre";
 @import "components/diseño-mujer";
 @import "components/diseño-niños";
+@import "components/footer";
 
 
 // media queris
@@ -22,9 +31,4 @@ body{
 @import "components/hover";
 
 
-// extends
-@import "base/extends";
-// mixnins
-@import "base/mixins";
-// mapas
-@import "base/mapas";
+

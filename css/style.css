@@ -57,6 +57,27 @@ body {
     justify-content: center;
   }
 }
+.short, .remera-tiburon, .remera-pantalon, .remera-azul, .polar, .chaqueta-niño, .buzo1, .pantalon-marron, .chaqueta-nike, .buzo-mariposa, .remera-mujer2, .remera-mujer1, .jean-mujer1, .buzo-negro, .imagen45, .hombre7, .hombre6, .hombre5, .hombre4, .hombre3, .hombre2, .hombre1, .destacado8, .destacado7, .destacado6, .destacado5, .destacado4, .destacado3, .destacado2, .destacado1, .tobillera1, .reloj3, .reloj-oro, .lentes-sol1, .joyeria1, .aritos2, .aritos1, .lentes-sol, .broche1 {
+  margin: 50px;
+  width: 200px;
+  height: 250px;
+}
+
+.pantalon-marron:hover, .chaqueta-nike:hover, .buzo-mariposa:hover, .remera-mujer2:hover, .remera-mujer1:hover, .jean-mujer1:hover, .buzo-negro:hover, .tobillera1:hover, .reloj3:hover, .reloj-oro:hover, .lentes-sol1:hover, .joyeria1:hover, .aritos2:hover, .aritos1:hover, .lentes-sol:hover, .short:hover, .remera-tiburon:hover, .remera-pantalon:hover, .remera-azul:hover, .polar:hover, .chaqueta-niño:hover, .buzo1:hover, .destacado8:hover, .destacado7:hover, .destacado5:hover, .destacado3:hover, .destacado2:hover, .destacado1:hover, .imagen45:hover, .hombre7:hover, .hombre6:hover, .hombre5:hover, .hombre4:hover, .hombre3:hover, .hombre2:hover, .hombre1:hover, .broche1:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+
+.zara:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.remera-mujer1:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+
 .titulosec {
   display: flex;
   justify-content: center;
@@ -196,6 +217,79 @@ footer {
 .carrusel-niños {
   width: auto;
   height: auto;
+}
+
+.footer1 {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  background: #286bcf;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elemen {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0, 5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elemen {
+  list-style: none;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 /* desktop */
@@ -711,27 +805,6 @@ p::first-letter {
 
 .titulo-bape:hover {
   transform: scale(1.2);
-}
-
-.broche1, .lentes-sol, .aritos1, .aritos2, .joyeria1, .lentes-sol1, .reloj-oro, .reloj3, .tobillera1, .destacado1, .destacado2, .destacado3, .destacado4, .destacado5, .destacado6, .destacado7, .destacado8, .hombre1, .hombre2, .hombre3, .hombre4, .hombre5, .hombre6, .hombre7, .imagen45, .buzo-negro, .jean-mujer1, .remera-mujer1, .remera-mujer2, .buzo-mariposa, .chaqueta-nike, .pantalon-marron, .buzo1, .chaqueta-niño, .polar, .remera-azul, .remera-pantalon, .remera-tiburon, .short {
-  margin: 50px;
-  width: 200px;
-  height: 250px;
-}
-
-.broche1:hover, .hombre1:hover, .hombre2:hover, .hombre3:hover, .hombre4:hover, .hombre5:hover, .hombre6:hover, .hombre7:hover, .imagen45:hover, .destacado1:hover, .destacado2:hover, .destacado3:hover, .destacado5:hover, .destacado7:hover, .destacado8:hover, .buzo1:hover, .chaqueta-niño:hover, .polar:hover, .remera-azul:hover, .remera-pantalon:hover, .remera-tiburon:hover, .short:hover, .lentes-sol:hover, .aritos1:hover, .aritos2:hover, .joyeria1:hover, .lentes-sol1:hover, .reloj-oro:hover, .reloj3:hover, .tobillera1:hover, .buzo-negro:hover, .jean-mujer1:hover, .remera-mujer1:hover, .remera-mujer2:hover, .buzo-mariposa:hover, .chaqueta-nike:hover, .pantalon-marron:hover {
-  transform: scale(2);
-  transition: all 1s;
-}
-
-.zara:hover {
-  transform: scale(1.2);
-  transition: all 1s;
-}
-
-.remera-mujer1:hover {
-  transform: scale(2);
-  transition: all 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
