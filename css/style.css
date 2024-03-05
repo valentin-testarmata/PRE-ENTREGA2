@@ -219,6 +219,77 @@ footer {
   height: auto;
 }
 
+.footer1 {
+  position: relative;
+  background: #286bcf;
+  min-height: 100px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.icon-elemen {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0, 5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elemen {
+  list-style: none;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 /* desktop */
 @media only screen and (min-width: 981px) {
   .destacado4:hover {
@@ -227,12 +298,12 @@ footer {
   }
   .imgp {
     display: flex;
-    width: 2100px;
+    width: 100%;
     height: 1000px;
   }
   .imagen-1 {
     display: flex;
-    width: 0px;
+    width: 100px;
     flex-grow: 1;
     object-fit: cover;
     opacity: 0.8;
@@ -258,10 +329,9 @@ footer {
     opacity: 1;
     filter: contrast(100%);
   }
-  .carrusel-mujer {
-    display: flex;
-    width: 2200px;
-    height: 1000px;
+  .bluza-zara4 {
+    width: 100%;
+    margin-bottom: 60px;
   }
   .carrusel-accesorios1 {
     display: flex;
@@ -513,6 +583,11 @@ footer {
     transition: 0.5s;
     object-fit: cover;
   }
+  .bluza-zara4 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  }
 }
 /* tablet */
 @media only screen and (min-width: 481px) and (max-width: 980px) {
@@ -665,6 +740,11 @@ footer {
   .buscado {
     box-shadow: 0px 3px 5px 15, 15, 15, 0.5;
     width: 100%;
+  }
+  .bluza-zara4 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
   }
 }
 /* hover */

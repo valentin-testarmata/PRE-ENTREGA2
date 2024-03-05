@@ -8,13 +8,13 @@
        }
        .imgp{
            display: flex;
-           width: 2100px;
+           width: 100%;
            height: 1000px;
            
        }
        .imagen-1{
            display: flex;
-       width: 0px;
+       width: 100px;
        flex-grow: 1;
        object-fit: cover;
        opacity: .8;
@@ -40,11 +40,10 @@
            opacity: 1;
            filter: contrast(100%);
          }
-         .carrusel-mujer{
-           display: flex;
-           width: 2200px;
-           height: 1000px;
-           
+         .bluza-zara4{
+            width: 100%;
+            margin-bottom: 60px;
+            
          }
          .carrusel-accesorios1{
            display: flex;
